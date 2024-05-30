@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+
+<html data-wf-domain="nekilnojamojo-turto-brokeris.webflow.io" data-wf-page="6658c593676b411337d235f9" data-wf-site="6658c593676b411337d235a5" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Process</title>
+        <meta content="Process" property="og:title"/>
+        <meta content="#" property="og:image"/>
+        <meta content="Process" property="twitter:title"/>
+        <meta content="#" property="twitter:image"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="Webflow" name="generator"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com" rel="preconnect"/>
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            WebFont.load({
+                google: {
+                    families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic", "DM Serif Display:regular"]
+                }
+            });
+        </script>
+        <script type="text/javascript">
+            !function(o, c) {
+                var n = c.documentElement
+                  , t = " w-mod-";
+                n.className += t + "js",
+                ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+            }(window, document);
+        </script>
+        <link href="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658e21c501c4c213e7e9d9e_image%20(1).png" rel="shortcut icon" type="image/x-icon"/>
+        <link href="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658e236547eaed1dd44dfa0_image%20(2).png" rel="apple-touch-icon"/>
+        <!-- Please keep this css code to improve the font quality-->
+        <style>
+            * {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            input {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border-radius: 0px;
+            }
+
+            .form-field {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                border-radius: 0px;
+            }
+
+            .is-select {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                /* Remove default arrow */
+                background-image: url(https://cdn.prod.website-files.com/6212e7201b7300b545f9620c/6240b0c972ff2f58a81a6f1e_Dropdown.png);
+                background-repeat: no-repeat;
+                background-position-x: 98%;
+                background-position-y: 12px;
+            }
+
+            .example {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background: transparent;
+                background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+                background-repeat: no-repeat;
+                background-position-x: 100%;
+                background-position-y: 5px;
+                border: 1px solid #dfdfdf;
+                border-radius: 2px;
+                margin-right: 2rem;
+                padding: 1rem;
+                padding-right: 2rem;
+            }
+        </style>
+        <!-- [Attributes by Finsweet] Custom Form Select -->
+        <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-selectcustom@1/selectcustom.js"></script>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="global-styles w-embed">
+                <style>
+                    .cursor-window {
+                        pointer-events: none;
+                    }
+                </style>
+                <style>
+                    /* Snippet gets rid of top margin on first element in any rich text*/
+                    .w-richtext>:first-child {
+                        margin-top: 0;
+                    }
+
+                    /* Snippet gets rid of bottom margin on last element in any rich text*/
+                    .w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    /* Snippet prevents all click and hover interaction with an element */
+                    .clickable-off {
+                        pointer-events: none;
+                    }
+
+                    /* Snippet enables all click and hover interaction with an element */
+                    .clickable-on {
+                        pointer-events: auto;
+                    }
+
+                    /* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+                    .div-square::after {
+                        content: "";
+                        display: block;
+                        padding-bottom: 100%;
+                    }
+
+                    /*Hide focus outline for main content element*/
+                    main:focus-visible {
+                        outline: -webkit-focus-ring-color auto 0px;
+                    }
+
+                    /* Make sure containers never lose their center alignment*/
+                    .container-medium, .container-small, .container-large {
+                        margin-right: auto !important;
+                        margin-left: auto !important;
+                    }
+
+                    /*Reset buttons, and links styles*/
+                    a {
+                        color: inherit;
+                        text-decoration: inherit;
+                        font-size: inherit;
+                    }
+
+                    /*Apply "..." after 3 lines of text */
+                    .text-style-3lines {
+                        display: -webkit-box;
+                        overflow: hidden;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                    }
+
+                    /*Apply "..." after 2 lines of text */
+                    .text-style-2lines {
+                        display: -webkit-box;
+                        overflow: hidden;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
+                </style>
+            </div>
+            <div data-animation="over-right" class="navbar w-nav" data-easing2="ease-out-quart" data-easing="ease-out-quart" data-collapse="all" role="banner" data-no-scroll="1" data-duration="300" data-doc-height="1">
+                <div class="container-nav">
+                    <a href="/" class="brand w-nav-brand">
+                        <img src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658e1a0bfe1951c112acfcb_image.svg" loading="lazy" alt="" class="logo-image"/>
+                    </a>
+                    <nav role="navigation" id="nav-menu" class="nav-menu w-nav-menu">
+                        <img src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23636_X.png" loading="lazy" alt="" width="29.5" id="close-button" class="close-button"/>
+                        <div class="nav-links-wrapper">
+                            <div class="nav-link-trigger">
+                                <a href="/" class="nav-link w-nav-link">Pagrindinis</a>
+                            </div>
+                            <div class="nav-link-trigger">
+                                <a href="/about" class="nav-link w-nav-link">Apie</a>
+                            </div>
+                            <div class="nav-link-trigger">
+                                <a href="/process" aria-current="page" class="nav-link w-nav-link w--current">Procesas</a>
+                            </div>
+                            <div class="nav-link-trigger">
+                                <a href="/contact" class="nav-link w-nav-link">Kontaktai</a>
+                            </div>
+                            <div class="w-layout-grid grid-3">
+                                <a href="mailto:aurimas.ragauskas@capitalrealty.com?subject=Hi%20!" class="nav_contact-item w-inline-block">
+                                    <img src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23637_mail-white.png" loading="lazy" width="24" alt="" class="contact_icon"/>
+                                    <div class="contact_text text-color-white">aurimas.ragauskas@capitalrealty.com</div>
+                                </a>
+                                <a href="tel:+37064530036" class="nav_contact-item w-inline-block">
+                                    <img src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23639_phone-white.png" loading="lazy" width="24" alt="" class="contact_icon"/>
+                                    <div class="contact_text text-color-white">+370 64530036</div>
+                                </a>
+                                <a id="w-node-_9ec73d31-5670-3196-0836-c57dd5e93ffa-d5e93fd8" href="https://goo.gl/maps/GLoC52hCDdfXH5fR8" target="_blank" class="nav_contact-item is-address w-inline-block"></a>
+                            </div>
+                        </div>
+                    </nav>
+                    <a href="/" class="logo-link-block w-inline-block">
+                        <div class="logo-text">
+                            Aurimas Ragauskas<br/>
+                            <span class="text-span">Nekilnojamojo Turto Brokeris</span>
+                            <br/>
+                        </div>
+                    </a>
+                    <div class="menu-button w-nav-button">
+                        <img src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23628_hamburger-menu.svg" loading="lazy" alt="" class="image-5"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-spacer"></div>
+            <main class="main-wrapper">
+                <div class="section">
+                    <div class="page-padding">
+                        <div class="container-xlarge"></div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="page-padding">
+                        <div class="container-large">
+                            <div class="padding-vertical padding-process">
+                                <div data-current="Explore" data-easing="ease" data-duration-in="300" data-duration-out="100" class="w-tabs">
+                                    <div class="tabs-menu w-tab-menu">
+                                        <a data-w-tab="Buy" class="process_tab buy-tab w-inline-block w-tab-link">
+                                            <img width="165" loading="lazy" alt="" src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23646_invest-bg.png" class="process_tab-bg"/>
+                                            <div class="process_tab-image w-embed">
+                                                <svg width="114" height="116" viewBox="0 0 114 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_891_5213)">
+                                                        <path d="M51.3137 70.2819C59.9621 61.0849 68.2645 51.369 76.7832 42.1144C79.8245 38.8061 80.2497 34.5608 78.8732 30.265C78.2966 29.9407 77.7705 30.7623 77.6696 31.4038C77.3016 33.3841 77.701 35.4302 78.7867 37.1267C81.8569 41.581 91.8602 40.1179 95.8672 37.7682C98.6928 36.0999 100.858 33.51 102 30.4336C103.142 27.3571 103.19 23.9814 102.137 20.8734C98.8149 10.48 87.6441 8.87988 79.7236 14.9559C72.7761 20.2896 71.5941 30.8849 74.1742 38.6115C79.493 54.5115 100.314 50.2014 108.177 39.462C111.792 34.5406 113.44 28.4466 112.797 22.3737C112.155 16.3009 109.268 10.6867 104.703 6.6311C94.2961 -2.47938 78.2822 0.144207 69.987 10.7899C65.1367 17.0245 62.78 29.1983 66.8231 36.2474C68.3654 38.9358 65.8069 42.4315 64.1637 44.428C54.9388 55.6648 44.4887 66.2816 34.0241 76.3579C30.2837 79.9618 26.7523 83.8467 22.911 87.4073C18.9616 91.076 14.9833 94.6942 11.1348 98.4927C7.98533 101.614 4.70616 104.54 2.03237 108.036C1.43122 108.664 1.09564 109.501 1.09546 110.371C1.20104 110.874 1.43153 111.342 1.76571 111.733C2.39546 112.539 3.12156 113.266 3.9278 113.895C4.48728 114.395 5.17267 114.731 5.90972 114.868C7.09167 115.005 8.18713 114.27 9.10962 113.521C12.4609 110.811 15.4518 107.416 18.4787 104.331C20.3669 102.399 22.6227 100.323 25.3181 100.504C28.3018 100.705 30.363 103.444 30.9612 106.154C31.2357 107.191 31.157 108.289 30.7378 109.275C28.4243 114.148 21.2462 112.836 20.6048 107.509C20.0426 102.853 23.2137 99.0404 26.1037 95.7754C29.0946 92.3878 34.0962 87.1262 38.9609 87.1622C39.9696 87.0596 40.9838 87.2954 41.8437 87.8325C42.1447 88.1043 42.3895 88.4325 42.5644 88.7984C44.3806 92.2076 40.7987 95.4366 37.7285 93.0004C37.111 92.5291 36.5985 91.9341 36.2239 91.2535C35.8493 90.5728 35.6208 89.8215 35.553 89.0476C35.4851 88.2736 35.5795 87.494 35.83 86.7586C36.0805 86.0231 36.4817 85.3481 37.0078 84.7765C41.6852 79.8248 46.8454 75.3993 51.3137 70.2819Z" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_891_5213">
+                                                            <rect width="114" height="116" fill="white"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </div>
+                                            <div class="process_tab-text">Pirkti</div>
+                                        </a>
+                                        <a data-w-tab="Rent" class="process_tab rent-tab w-inline-block w-tab-link">
+                                            <img width="165" loading="lazy" alt="" src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23653_rent-bg.png" class="process_tab-bg"/>
+                                            <div class="process_tab-image w-embed">
+                                                <svg width="124" height="115" viewBox="0 0 124 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_891_5224)">
+                                                        <path d="M1.09756 113.941C0.870976 113.721 1.94018 1.7628 1.94018 1.7628C1.94018 1.7628 11.209 1.4998 14.3954 1.45715C30.3769 1.24391 44.8785 1.28656 60.8529 1.07332C61.4398 0.981939 62.0404 1.0644 62.5812 1.3106C63.122 1.5568 63.5796 1.95603 63.8977 2.45938C68.4675 7.74936 73.439 12.6757 78.7675 17.1942C79.6668 17.9548 80.6793 19.0636 80.2191 20.1511C77.7125 20.2507 76.1264 17.6065 74.873 15.4243C73.4152 12.8794 71.674 10.5091 69.6828 8.359C68.6985 7.29991 67.5585 6.22661 66.1069 6.07023C61.3415 5.53714 64.365 15.7442 64.1526 18.3884C64.0606 19.5399 63.9898 20.7837 64.5704 21.7789C65.5829 23.4563 67.8984 23.6696 69.8173 23.6696C72.8054 23.6696 75.8502 23.563 78.8241 23.8686C80.7714 24.0605 84.1136 23.5061 85.1615 25.6243C85.4358 26.3265 85.5354 27.0853 85.4518 27.8349L84.7437 52.9545C84.7175 53.1079 84.7254 53.2652 84.7671 53.4152C84.8087 53.5652 84.883 53.704 84.9845 53.8216C85.1692 53.947 85.3943 53.9978 85.6147 53.9638C88.178 53.8074 89.495 50.9074 90.4722 48.5262C92.1078 44.567 94.4233 40.7074 97.9071 38.2694C99.2685 37.2732 100.816 36.5633 102.458 36.1822C104.099 35.8011 105.8 35.7567 107.459 36.0517C110.9 36.7625 113.881 39.9398 117.684 38.8949C120.977 37.9851 122.364 34.1041 122.839 30.7065C123.033 29.7668 123.016 28.7956 122.789 27.8633C121.663 24.1743 117.436 24.9632 115.128 26.6407C109.994 30.3795 106.425 37.5941 102.46 42.5413L70.0935 82.8933C67.9692 85.573 65.8449 87.7196 65.3776 91.3375C65.066 93.8893 63.6924 96.4766 63.1117 99.0355C63.0126 99.4691 62.9701 100.023 63.3454 100.258C63.7207 100.493 64.1314 100.258 64.4783 100.031C66.4114 98.7938 69.4349 97.5499 71.021 95.9435C73.522 94.6871 75.7319 92.9168 77.5071 90.7476L84.3897 82.0261C90.5264 74.2547 96.642 66.4738 102.736 58.6835C104.046 57.006 104.974 54.0775 101.95 53.7506C100.017 53.5444 99.5569 54.9731 98.5798 56.3023C95.9598 59.8563 93.1771 63.3677 90.9253 67.1989C88.3692 71.5489 85.5014 76.9581 85.1049 82.8933L84.4322 113.777L1.09756 113.941Z" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M11.5771 92.887H20.2512" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M11.5843 92.8871C10.8763 92.8302 10.8763 93.079 10.3452 92.5175C9.44592 91.6076 10.8125 90.4348 11.7614 90.4775C12.5615 90.4775 13.2979 90.8969 14.091 90.975C15.4505 91.0959 16.6967 90.2642 17.8226 89.5037L20.3575 87.748C21.3995 87.1386 22.2789 86.285 22.9208 85.2602C23.3669 84.4002 23.99 82.5734 22.8712 82.019C22.5317 81.8723 22.1644 81.802 21.7949 81.8129C18.9626 81.8129 16.9516 84.7556 16.6755 87.3855C16.5138 88.2876 16.693 89.2177 17.1782 89.9941C17.5413 90.4126 18.0124 90.7223 18.5397 90.8891C19.0669 91.0559 19.6298 91.0734 20.1663 90.9395C22.5243 90.4775 22.4959 88.1603 24.4149 87.3855C24.7901 87.2291 25.3283 87.1865 25.4982 87.5561C25.6186 87.812 25.8452 88.2669 25.9302 88.4588C26.0505 88.7929 26.0859 89.5392 26.3408 89.8449C26.7303 90.3282 27.495 89.9586 27.9624 89.5534C29.0913 88.5652 30.097 87.4435 30.9576 86.2127C30.3415 86.0705 29.945 86.8595 29.8317 87.485C29.7456 87.7447 29.7239 88.0215 29.7683 88.2914C29.8127 88.5614 29.922 88.8165 30.0866 89.0346C30.2745 89.1762 30.4983 89.262 30.7324 89.2821C30.9666 89.3022 31.2016 89.2558 31.4107 89.1483C31.8201 88.9226 32.2087 88.6609 32.572 88.3664C33.2276 87.9108 33.983 87.6206 34.7742 87.5206V89.4895C34.7594 89.6089 34.7869 89.7297 34.852 89.8307C34.9198 89.8976 35.0062 89.9422 35.0999 89.9586C36.2328 90.2145 37.2241 88.8853 38.3571 88.9493C38.6951 88.9974 39.0258 89.0882 39.3413 89.2194C40.5184 89.5311 41.743 89.6203 42.9525 89.4824L47.1161 89.2762" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M10.8691 60.0979H74.7739" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M11.3081 49.1516H74.9934" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M11.5063 38.2053H75.1916" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_891_5224">
+                                                            <rect width="124" height="115" fill="white"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </div>
+                                            <div class="process_tab-text">Nuoma</div>
+                                        </a>
+                                        <a data-w-tab="Sell" class="process_tab sell-tab w-inline-block w-tab-link">
+                                            <img width="165" loading="lazy" alt="" src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23645_sell-bg.png" class="process_tab-bg"/>
+                                            <div class="process_tab-image w-embed">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="124" height="115" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 131 124.02">
+                                                    <defs>
+                                                        <clipPath id="a" transform="translate(0.48 0.53)">
+                                                            <rect width="130" height="123" style="fill:none"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g style="clip-path:url(#a)">
+                                                        <path d="M69.42,42.16c7.85-.66,15.82,0,23.73-.31a5.09,5.09,0,0,0,3-.78,4.59,4.59,0,0,0,1.37-2.74,24.08,24.08,0,0,0,.5-3,4.82,4.82,0,0,0-.46-3.12.81.81,0,0,0-.27-.31.79.79,0,0,0-.39-.16c-.46,0-.75.49-.89.94a14.63,14.63,0,0,0-.1,7.85c.51,1.93,2.72,1.74,4.28,1.62,2.39-.18,4.7-.3,7.12-.28,4.39,0,8.78.05,13.19.11,1.69,0,8.27-.58,8.44,3.84.23,5.9-.44,50.06-.34,52.4.17,4.09-5,3.41-6.78,3.46q-22.17.54-44.36.51-11.1,0-22.19-.18c-4.67-.07-13.67,1.53-16.68-3.3C37,96.09,37,92.88,37,89.85l.19-22.52c.06-6.9-.18-13.84.26-20.74.11-1.69.07-2.73,1.39-3.87a3.8,3.8,0,0,1,2.71-1.1c3.58-.22,7.25-.08,10.8,0a104.46,104.46,0,0,0,13.12-.29c2.91-.29,5.93-3.12,5.93-6.16s-3-5.19-5.8-6.09a20.15,20.15,0,0,0-5.93-.74q-11.28-.22-22.57.25c-2.77.12-5.65.3-8,1.72.34,1,1.67,1.24,2.75,1.26,9.63.17,19.2-1.08,28.82-1.35q2.73-.09,5.46-.12c8.45-.13,50.1.52,50.61.33,2.92-1.11,5.41-3.67,7.83-5.57a.35.35,0,0,0,.11-.1.2.2,0,0,0,0-.29.49.49,0,0,0-.13-.12q-2.64-2-5.48-3.85A11,11,0,0,0,116,18.75a21.59,21.59,0,0,0-4.33-.07h-7.75q-8.22,0-16.43.05c-9.11,0-18.22.05-27.32,0H58q-11.64-.12-23.27-.42c-2.37-.06-4.15-.55-5.41-2.68-1-1.63-.63-3.57-1.15-5.34a2,2,0,0,0-.29-.7,1.82,1.82,0,0,0-.55-.52c-2.68-1.32-2.64,5.27-2.64,6.48q0,6.27-.1,12.52c0,8.5-.31,93.92-.31,93.92l-11-.2.55-96.56c0-3-.29-6.67-2.95-8.14a5.65,5.65,0,0,0-2.21-.57,5.76,5.76,0,0,0-2.25.34c-3.79,1.21-6.39,5.66-5.1,9.41S8,31.81,11,29.21c2.53-2.19,2.6-6,2.3-9.37A110.22,110.22,0,0,1,13.23,8c.25-.85,4.14-5.15,5.47-7.07,1.65,2.25,3.95,4.5,5.61,6.74" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
+                                                        <path d="M60.8,53.07a.58.58,0,0,1,.15-.35.54.54,0,0,1,.34-.16H69a.52.52,0,1,1,0,1H61.85v5.88h6.23a.52.52,0,0,1,.37.16.49.49,0,0,1,.15.36.51.51,0,0,1-.52.52H61.85v6.39a.56.56,0,0,1-.17.37.71.71,0,0,1-.17.11.64.64,0,0,1-.2,0,.55.55,0,0,1-.36-.15.56.56,0,0,1-.15-.36Z" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-miterlimit:10;stroke-width:2px"/>
+                                                        <path d="M80.59,52.35a7.54,7.54,0,1,1-7.17,7.53A7.33,7.33,0,0,1,80.59,52.35Zm0,14a6.5,6.5,0,0,0,0-13,6.49,6.49,0,0,0,0,13Z" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-miterlimit:10;stroke-width:2px"/>
+                                                        <path d="M100.35,64a2.68,2.68,0,0,0-1.21-2.25,4.71,4.71,0,0,0-1.72-.74c-.07,0-.09,0-.11,0h-3.6v5.88a.45.45,0,0,1,0,.19.39.39,0,0,1-.11.17.42.42,0,0,1-.18.11.44.44,0,0,1-.2,0,.51.51,0,0,1-.5-.5V53a.51.51,0,0,1,.13-.34.51.51,0,0,1,.33-.17h4.25a4.26,4.26,0,0,1,2.65.94,4.21,4.21,0,0,1,1.47,2.39,4.27,4.27,0,0,1-.33,2.79,4.31,4.31,0,0,1-2,2l.21.1a3.79,3.79,0,0,1,2,3.3,5.55,5.55,0,0,0,.19,1.72.82.82,0,0,0,.21.36.57.57,0,0,1,.34.08.49.49,0,0,1,.23.26.58.58,0,0,1,0,.39.69.69,0,0,1-.29.27h-.31a1.16,1.16,0,0,1-.56-.21,1.11,1.11,0,0,1-.38-.45A5.19,5.19,0,0,1,100.35,64Zm-3-10.46H93.71V60h3.76a3.21,3.21,0,0,0,3.16-3.24,3.27,3.27,0,0,0-1-2.26A3.18,3.18,0,0,0,97.38,53.58Z" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-miterlimit:10;stroke-width:2px"/>
+                                                        <path d="M55.52,85.72a.33.33,0,0,1,.14-.12.49.49,0,0,1,.17-.06.58.58,0,0,1,.19,0,.37.37,0,0,1,.16.09,8,8,0,0,0,4.88,1.9,5.48,5.48,0,0,0,3.26-1,2.79,2.79,0,0,0,.92-1,2.75,2.75,0,0,0,.36-1.26,2.36,2.36,0,0,0-.33-1.18,2.42,2.42,0,0,0-.88-.86A10,10,0,0,0,61,81.13h0a9.31,9.31,0,0,1-3.5-1.25,3.1,3.1,0,0,1-1.1-1.09,3.07,3.07,0,0,1-.43-1.5,3.5,3.5,0,0,1,.44-1.58,3.45,3.45,0,0,1,1.11-1.2,6,6,0,0,1,3.59-1.08,8.27,8.27,0,0,1,4.61,1.72.44.44,0,0,1,.2.3.51.51,0,0,1-.07.36.4.4,0,0,1-.13.13.38.38,0,0,1-.17.08.4.4,0,0,1-.19,0,.38.38,0,0,1-.17-.08,7.41,7.41,0,0,0-4.08-1.57,5.45,5.45,0,0,0-3,.89,2.79,2.79,0,0,0-.83.88,2.64,2.64,0,0,0-.34,1.16,2.19,2.19,0,0,0,.32,1,2.06,2.06,0,0,0,.79.76,8.58,8.58,0,0,0,3.18,1.12h0A10.16,10.16,0,0,1,65,81.58a3.39,3.39,0,0,1,1.19,1.19,3.27,3.27,0,0,1,.44,1.61,3.71,3.71,0,0,1-.48,1.69,3.66,3.66,0,0,1-1.19,1.28,6.53,6.53,0,0,1-3.82,1.17,9.28,9.28,0,0,1-5.48-2.14.55.55,0,0,1-.18-.31A.47.47,0,0,1,55.52,85.72Z" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-miterlimit:10;stroke-width:2px"/>
+                                                        <path d="M79,84.65H72.24l-1.32,3.51a.47.47,0,0,1-.19.25.52.52,0,0,1-.29.09h-.2a.55.55,0,0,1-.27-.27.58.58,0,0,1,0-.39L75.1,74.06a.58.58,0,0,1,.21-.23.59.59,0,0,1,.61,0,.61.61,0,0,1,.21.24l5.15,13.78a.55.55,0,0,1,0,.38.57.57,0,0,1-.27.28h-.19a.53.53,0,0,1-.29-.1.59.59,0,0,1-.2-.24Zm-6.4-1h6l-3-8Z" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-miterlimit:10;stroke-width:2px"/>
+                                                        <path d="M86,88.5h0a.53.53,0,0,1-.36-.15.55.55,0,0,1-.15-.36V74.15a.54.54,0,0,1,.15-.37.51.51,0,0,1,.74,0,.5.5,0,0,1,.15.37v13.3h7.11a.45.45,0,0,1,.2,0,.54.54,0,0,1,.18.11.42.42,0,0,1,.11.18.52.52,0,0,1,0,.4.52.52,0,0,1-.12.17.62.62,0,0,1-.17.11.64.64,0,0,1-.2,0Z" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-miterlimit:10;stroke-width:2px"/>
+                                                        <path d="M98.25,74.15a.55.55,0,0,1,.15-.36.51.51,0,0,1,.36-.15h7.67a.52.52,0,0,1,.37.89.56.56,0,0,1-.37.15H99.29v5.88h6.22a.52.52,0,0,1,.37.89.51.51,0,0,1-.37.15H99.29v5.86h7.14a.54.54,0,0,1,.37.15.54.54,0,0,1,.11.18.64.64,0,0,1,0,.2.48.48,0,0,1,0,.2.42.42,0,0,1-.11.16.36.36,0,0,1-.16.11.45.45,0,0,1-.2,0H98.72a.54.54,0,0,1-.34-.16.56.56,0,0,1-.13-.35Z" transform="translate(0.48 0.53)" style="fill:none;stroke:#e45525;stroke-miterlimit:10;stroke-width:2px"/>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="process_tab-text">Parduoti</div>
+                                        </a>
+                                        <a data-w-tab="Invest" class="process_tab invest-tab w-inline-block w-tab-link">
+                                            <img width="165" loading="lazy" alt="" src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23646_invest-bg.png" class="process_tab-bg"/>
+                                            <div class="process_tab-image w-embed">
+                                                <svg width="79" height="134" viewBox="0 0 79 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_891_5231)">
+                                                        <path d="M15.7092 112.577C15.7092 112.577 19.755 123.376 22.1718 128.838C22.4331 129.545 22.8275 130.195 23.3334 130.753C24.2389 131.454 25.3356 131.863 26.478 131.925C35.6899 133.297 45.0489 133.358 54.2778 132.105C54.9422 132.089 55.5828 131.854 56.1005 131.436C56.935 130.592 59.4386 122.8 60.3065 120.658L65.4672 107.804C65.801 106.967 65.9947 105.749 65.1735 105.394C64.8741 105.294 64.5533 105.278 64.2455 105.347C55.6331 106.498 47.0541 108.259 38.3617 108.239C34.5362 108.239 30.724 107.878 26.9186 107.529L14.167 106.351C13.8693 106.354 13.578 106.265 13.3324 106.097C13.1454 105.915 13.0154 105.682 12.9586 105.427C11.8903 101.937 11.5628 98.2606 11.9972 94.6355C11.8904 95.5326 33.1275 96.9452 35.0836 96.9987C42.9215 97.2263 50.8262 96.1753 58.6842 96.0213C60.4986 95.8985 62.321 96.0611 64.0852 96.5033C64.9634 96.7352 65.7788 97.1609 66.4719 97.7493C67.1649 98.3377 67.7181 99.0739 68.091 99.9042C68.2769 100.313 68.317 100.774 68.2045 101.21C67.8573 102.261 66.2884 102.348 65.4005 101.692C64.5125 101.036 64.0652 99.9511 63.3976 99.054C61.9622 97.0456 59.5654 95.9878 57.1687 95.4924C54.7719 94.997 52.315 94.9635 49.8782 94.6958C40.0241 93.6112 37.8209 86.6622 37.3202 77.7248C37.2668 76.734 37.1332 75.5959 36.3187 75.047C34.2091 73.5942 28.7813 74.4712 26.1642 73.9491C22.7463 73.2571 19.5173 71.8346 16.6973 69.7783C12.4578 66.6921 10.7421 61.959 6.80308 58.625C9.8993 57.1477 13.2135 56.1823 16.6171 55.7664C20.0287 55.4651 23.6205 56.1212 26.3778 58.1564C28.3072 59.5757 29.7159 61.5707 31.1046 63.5121C32.9806 66.19 34.1823 69.698 36.1919 72.1482C36.3855 72.3892 36.6793 72.6302 36.9663 72.5164C37.1263 72.4286 37.2495 72.286 37.3135 72.1147C38.8557 68.8812 37.9811 65.1121 38.2882 61.6979C38.6821 57.353 38.4351 52.8542 38.4885 48.4826C38.4885 46.8224 38.4485 44.9546 37.2334 43.7964C36.6261 43.3191 35.9324 42.9645 35.1905 42.752C27.0855 39.7997 17.4383 38.126 10.1479 33.3795C5.21412 30.1661 0.607519 23.8664 1.0615 17.6672C1.32188 14.1458 4.11922 11.093 7.48405 10.0821C21.0635 5.99172 27.1322 26.5644 32.3531 34.9461C32.9771 36.1211 33.8806 37.1237 34.9835 37.8649C36.1318 38.5344 37.7408 38.5344 38.6421 37.5704C39.0011 37.1358 39.2629 36.6289 39.4099 36.0841C41.0188 31.1234 39.7303 24.7033 39.0026 19.6957C38.3817 15.4044 37.1199 11.2403 34.1557 7.93986C31.6187 5.10803 27.8933 3.25361 24.1413 3.44106C18.2929 3.77579 14.641 8.97753 14.9013 14.5408C15.1363 17.9143 16.0444 21.2062 17.5718 24.2212C18.9513 27.1882 20.8152 29.9034 23.0864 32.2548C25.5493 34.5996 28.324 36.5912 31.3316 38.1729C33.5882 39.4382 37.407 42.7118 40.0107 42.7051C41.0988 42.6116 42.135 42.1969 42.9883 41.5135C48.6831 37.6239 53.6302 32.0272 55.9602 25.4464C57.883 20.0237 58.3771 11.4479 55.6331 6.23942C54.5765 4.12723 52.8001 2.46464 50.6259 1.55317C48.3147 0.749642 45.7917 0.811464 43.5224 1.72723C34.2091 5.21514 35.1304 15.5851 35.9983 23.92L36.9129 33.7745C37.1533 36.0708 38.335 39.5051 37.6139 41.7344C37.18 43.0734 35.9782 43.8834 35.7446 45.4098C35.5844 46.414 35.9783 47.7127 36.9797 47.8266C37.3537 47.8391 37.7238 47.7463 38.0479 47.5588C39.3831 46.8893 40.3645 45.7847 41.5863 44.9746C46.046 42.0089 51.2068 41.4733 56.1672 39.9403C61.4804 38.307 66.3744 35.5311 70.5078 31.8063C74.874 27.8497 82.3181 16.2479 74.7472 11.5014C72.7443 10.2562 70.1806 10.5374 67.9575 11.2738C64.2722 12.4989 60.7071 15.2906 60.193 19.1467C60.1033 19.5518 60.1651 19.9759 60.3666 20.3383C60.7404 20.8739 61.5349 20.8672 62.1758 20.7333C63.4681 20.4383 64.6837 19.8732 65.7432 19.0749C66.8028 18.2766 67.6824 17.2631 68.3247 16.1006C69.8936 13.2956 69.9537 9.53988 67.9975 6.98253C64.4391 2.32975 57.7829 3.15319 54.5783 7.59844C51.5539 11.7826 51.2402 17.5132 50.9865 22.3802C50.7661 26.7652 51.3069 31.177 50.9865 35.5553" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M38.7222 128.095V125.518C38.7222 123.733 38.7111 121.925 38.6888 120.095C38.6888 117.839 38.6888 115.61 38.6888 113.367C38.7602 113.935 38.7308 114.51 38.602 115.068C38.5921 115.118 38.5921 115.171 38.602 115.222C38.6354 115.329 38.7823 115.349 38.8958 115.355C39.9763 115.407 41.0212 115.76 41.9134 116.373C41.3156 115.783 40.5216 115.435 39.6836 115.396C38.5419 115.309 36.3922 115.59 35.6778 116.641C35.4955 116.878 35.3684 117.154 35.3061 117.447C35.2437 117.74 35.2475 118.043 35.3173 118.335C35.3871 118.626 35.521 118.899 35.7094 119.131C35.8977 119.364 36.1355 119.552 36.4055 119.68C37.137 120.039 37.9257 120.266 38.7355 120.35C39.7569 120.387 40.7463 120.716 41.5863 121.3C41.8746 121.581 42.095 121.924 42.2304 122.304C42.3658 122.683 42.4127 123.089 42.3674 123.489C42.3825 123.915 42.2762 124.337 42.061 124.704C41.8458 125.072 41.5306 125.37 41.1523 125.565C39.49 126.489 35.8114 126.475 35.4909 123.965" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_891_5231">
+                                                            <rect width="79" height="134" fill="white"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </div>
+                                            <div class="process_tab-text">Investuoti</div>
+                                        </a>
+                                        <a data-w-tab="Explore" id="w-node-_2445f88c-ab14-d3c1-9afc-008cd78c48b6-37d235f9" class="process_tab explore-tab w-inline-block w-tab-link w--current">
+                                            <img width="165" loading="lazy" alt="" src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/6658c593676b411337d23651_explore-bg.png" class="process_tab-bg"/>
+                                            <div class="process_tab-image w-embed">
+                                                <svg width="89" height="135" viewBox="0 0 89 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_891_5234)">
+                                                        <path d="M50 19.8066L50.346 9.09642C50.4246 6.72342 50.401 4.04983 48.7734 2.34127C48.3407 1.87791 47.8003 1.52999 47.2008 1.32879C46.1386 1.05783 45.0137 1.20496 44.0557 1.74013C42.3213 2.75771 41.0325 4.39606 40.4466 6.32792C38.8268 11.0185 41.5238 19.6246 36.2871 22.4564C34.345 23.5085 32.0412 23.548 29.8317 23.5638C20.066 23.6271 11.5033 24.5209 1.714 24.2915C1.63537 30.9834 1.63537 37.2956 1.714 44.0665C1.69189 44.3151 1.75578 44.5638 1.89486 44.7705C2.0007 44.8679 2.1247 44.9432 2.25966 44.9921C2.39463 45.041 2.53788 45.0625 2.68114 45.0553C8.22448 45.4508 13.9015 44.8259 19.4448 44.7705C27.3077 44.6914 35.3043 44.4779 43.1514 45.3638C44.43 45.4145 45.677 45.7783 46.7841 46.4237C49.1429 48.0453 49.5439 51.2884 49.1429 53.8908C49.1373 54.0243 49.0937 54.1533 49.0171 54.2625C48.9339 54.3358 48.8363 54.3905 48.7306 54.4233C48.6249 54.456 48.5136 54.4659 48.4038 54.4524L41.3272 54.5077C41.1319 54.5249 40.9358 54.4866 40.7611 54.397C40.6593 54.3067 40.5773 54.1961 40.5205 54.0721C40.4636 53.9482 40.4331 53.8137 40.4309 53.6772C40.077 51.1381 40.2815 49.0815 41.9012 47.0328C43.3244 45.2293 45.8327 45.0078 47.9478 45.0237L75.4679 45.2372C76.0301 45.2755 76.5942 45.2002 77.1269 45.0157C77.5355 44.8163 77.9077 44.5489 78.2277 44.2247C81.2775 41.2797 84.1649 38.1691 86.8769 34.9068C86.9632 34.825 87.0257 34.721 87.0578 34.6062C87.2622 33.6016 84.9898 31.6241 84.4237 31.0071C83.0792 29.5517 81.7189 28.12 80.3271 26.7199C79.187 25.5729 77.182 23.018 75.4207 22.9943L41.2329 22.6304" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M39.9198 133.291C39.5109 120.327 40.1399 107.362 40.1321 94.4533C40.2592 90.5245 40.1542 86.5915 39.8176 82.6753C39.4323 79.5113 36.9083 78.9022 34.1012 78.9576C30.1121 79.0367 26.1256 79.0789 22.1418 79.0841C20.0974 79.0841 18.0531 79.0841 16.0087 79.0841C14.5462 79.0841 12.8636 79.3689 11.6999 78.2931C8.12736 75.3729 4.71509 72.2597 1.47812 68.9672C1.32676 68.8446 1.22593 68.6699 1.19507 68.4768C1.20935 68.3741 1.24556 68.2756 1.3012 68.1882C1.35684 68.1008 1.43059 68.0266 1.51743 67.9706L11.4561 59.1272C12.6749 58.0435 13.9329 56.944 15.6313 57.2684C15.6313 57.2684 24.6736 57.126 29.2027 57.126C34.0698 57.126 38.9291 57.2605 43.7962 57.2842C48.8441 57.2842 62.6121 57.3237 67.66 57.5294C74.0054 57.7983 80.3979 57.5294 86.7826 57.7588C86.9 57.7568 87.0161 57.784 87.1207 57.8379C87.1865 57.901 87.2386 57.9772 87.2738 58.0616C87.309 58.146 87.3264 58.2368 87.3251 58.3283C87.9856 64.7828 87.8047 71.3165 87.7812 77.8185C87.7998 78.0142 87.7645 78.2113 87.6789 78.3881C87.4745 78.7045 87.0263 78.7203 86.6568 78.6886L48.2859 79.0367C46.7133 79.3847 45.3058 80.0571 43.6311 79.8751C41.5552 79.6458 40.25 78.5304 39.9591 76.4185C39.8852 75.5501 40.0906 74.6809 40.545 73.9389C40.9994 73.1969 41.6789 72.6214 42.4831 72.2974C44.5038 71.4193 47.5782 71.7041 48.9621 73.5946C50.1258 75.1766 50.0393 77.5496 50.1572 79.4717C50.4246 83.8618 50.2123 133.45 50.2123 133.45C50.2123 133.734 43.0413 133.774 43.0413 133.774" stroke="#E65300" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_891_5234">
+                                                            <rect width="89" height="135" fill="white"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </div>
+                                            <div class="process_tab-text">Tyrinėkite daugiau</div>
+                                        </a>
+                                    </div>
+                                    <div class="tabs-content w-tab-content">
+                                        <div data-w-tab="Buy" class="w-tab-pane">
+                                            <div class="step_component">
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">01</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Konsultacijų ir strategijos sesija</div>
+                                                        <div class="step_content-no-offset">Susirinksime (asmeniškai arba virtualiai), kad aptartume, ko jūs ieškote ir jūsų biudžetą, prioritetus ir tikslus. Taip pat apžvelgsime procesą, rinkos sąlygas toje srityje (-ėse), kurios ieškote, ir išspręsime visus klausimus. Šios sesijos tikslas – sukurti tvirtą strategiją, atitinkančią jūsų konkrečius poreikius, ir užtikrinti, kad jums būtų kuo patogiau atlikti veiksmus.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">02</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Ieško namų</div>
+                                                        <div class="step_content-no-offset">We’ll review properties that meet your criteria and tour any that are of interest to you (in-person or virtually). We’ll see as many (or as few) as it takes to find the right one, and I’ll be there every step of the way to coordinate, provide feedback, and work on due diligence.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">03</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Pasiūlymas ir derybos</div>
+                                                        <div class="step_content">Kai rasime jums patinkantį turtą, kartu parengsime pasiūlymo strategiją. Taikant šią strategiją atsižvelgiama į daugybę veiksnių – esamas rinkos sąlygas, trumpalaikes ir ilgalaikes tendencijas šioje srityje, esamus pasiūlymus, palyginamus daiktus, išorinę būklę, vidaus būklę, tai, ką žinome apie pardavėjo pageidavimus ir tt. Pateiksiu pasiūlymą. ir įnirtingai atstovauti jūsų interesams, kad būtų užtikrintos geriausios sąlygos.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">04</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Priėmimas</div>
+                                                        <div class="step_content">Kai pasiūlymas bus priimtas, pateiksite savo pradinius pinigus, o mes pradėsime advokato peržiūros ir patikrinimo laikotarpį, kuris paprastai trunka 5–7 dienas po sutarties priėmimo.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">05</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Tolesni žingsniai</div>
+                                                        <div class="step_content">Kai advokato peržiūra bus baigta, pateiksite uždirbtų pinigų likutį ir užtikrinsite finansavimą.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">06</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Uždarymas</div>
+                                                        <div class="step_content">Kai finansavimas bus užtikrintas, mes atliksime galutinį turto patikrinimą, užbaigsime visus laukiančius dalykus ir jūs uždarysite nuosavybę.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">07</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Nuolatinis palaikymas</div>
+                                                        <div class="step_content">Mano darbas nesibaigia prie uždarymo stalo. Nesvarbu, ar tai kraustymosi diena, ar po penkerių metų, aš matau savo vaidmenį kaip visą gyvenimą trunkantis nekilnojamojo turto patarėjas ir šaltinis, todėl esu čia, kad palaikyčiau jus visais nekilnojamojo turto klausimais. Visada skambinu, jei turite klausimų.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Rent" class="w-tab-pane">
+                                            <div class="step_component">
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">01</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Konsultacijų ir strategijos sesija</div>
+                                                        <div class="step_content-no-offset">
+                                                            Susirinksime (asmeniškai arba virtualiai), kad aptartume, ko jūs ieškote ir jūsų biudžetą, prioritetus ir tikslus. Taip pat išnagrinėsime procesą, rinkos sąlygas toje srityje (-ėse), kurios ieškote, ir išspręsime visus klausimus. Jei esate naujokas mieste arba nežinote, kur tiksliai norite būti, koordinuosiu išteklius, ekskursijas ir pan., kad padėčiau nuspręsti, kuris rajonas (-ai) ir sritys gali tikti. <br/>
+                                                            <br/>Šios sesijos tikslas – sukurti tvirtą strategiją, atitinkančią jūsų konkrečius poreikius, ir užtikrinti, kad jums būtų kuo patogiau atlikti veiksmus.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">02</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Namo (ar buto) paieška</div>
+                                                        <div class="step_content-no-offset">Sudarysiu sąrašą nekilnojamojo turto ir (arba) pastatų, atitinkančių jūsų kriterijus, taip pat atsižvelgdamas į biudžeto reikalavimus ir galimas paskatas / sandorius. Tada apžiūrėsime visus jus dominančius objektus (asmeniškai arba virtualiai). Galime pamatyti tiek daug (arba tiek nedaug), kiek reikia, kad surastume tinkamą, ir aš būsiu šalia kiekviename žingsnyje koordinuodamas, pateikdamas atsiliepimus ir atlikdamas deramus patikrinimus, kad priimtumėte pagrįstą sprendimą.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">03</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Taikymas</div>
+                                                        <div class="step_content">Palaikysiu jus per paraiškų teikimo procesą, prireikus koordinuosiu ir padarysiu viską, ką galiu, kad užtikrinčiau jums puikią vietą geriausiomis įmanomomis sąlygomis.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">04</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Nuolatinis palaikymas</div>
+                                                        <div class="step_content">Mano darbas nesibaigia, kai pasirašoma nuomos sutartis. Nesvarbu, ar tai padėtų jums koordinuoti persikraustymo dieną, ar atsakymas į klausimą po trejų metų, aš matau savo, kaip visą gyvenimą trunkančio nekilnojamojo turto patarėjo ir šaltinio, vaidmenį. Esu čia, kad palaikyčiau jus visais nekilnojamojo turto klausimais. Visada laukiu, jei turite klausimų ir, atsižvelgdami į jūsų planus ir tikslus, aktyviai dirbsiu, kad jus pasiektume – nesvarbu, ar pasibaigus nuomos sutarčiai rasite kitą geriausią pasiūlymą, ar pasiruošę pirkti. vieta pakeliui. Laikykite mane savo akimis ir ausimis apie visus nekilnojamojo turto dalykus.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Sell" class="w-tab-pane">
+                                            <div class="step_component">
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">01</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Konsultacijų ir strategijos sesija</div>
+                                                        <div class="step_content-no-offset">
+                                                            Susirinksime (asmeniškai arba virtualiai), kad aptartume turtą, taip pat jūsų prioritetus, tikslus ir laiko juostą. Taip pat apžvelgsime procesą, rinkos sąlygas ir išspręsime visus klausimus. Šios sesijos tikslas – sukurti tvirtą strategiją, atitinkančią jūsų konkrečius poreikius, ir užtikrinti, kad jums būtų kuo patogiau atlikti veiksmus. <br/>Šios sesijos metu arba vėliau taip pat apžvelgsiu nekilnojamąjį turtą, kad suprasčiau jo niuansus ir įsitikintume, kad turime tvirtą kainodaros strategiją. Jei yra galimybių padidinti Jūsų būsto kainą ir/ar paklausumą, visus tuos variantus pateiksiu ir Jums.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">02</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Paruoškite ir įtraukite į sąrašą savo namus</div>
+                                                        <div class="step_content-no-offset">Kai nuspręsime dėl strategijos, dirbsiu su jumis, kad jūsų namas būtų paruoštas pardavimui. Nesvarbu, ar tai būtų namų tobulinimo projektai, siekiant maksimaliai padidinti kainą, laisvo nekilnojamojo turto pastatymas ar tiesiog padėti sutvarkyti reikalus, aš padarysiu tai kuo sklandžiau. Taip pat atliksime pradinius dokumentus ir parengiamuosius darbus, reikalingus rinkodaros pastangoms. Šioje proceso dalyje neskubama. Galiu judėti taip greitai, kaip norite, bet jei tik tyrinėjate savo galimybes arba turite tolimesnį laikotarpį, tai taip pat gerai. Informuosiu jus apie rinkos sąlygas, kol būsite pasiruošę.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">03</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Rinkodara</div>
+                                                        <div class="step_content">Siūlau visus skambučius ir švilpukus, susijusius su jūsų turto rinkodara, įskaitant profesionalią fotografiją, virtualų pastatymą, skaitmeninius skelbimus, vaizdo įrašų turus, 3D turus, atvirų durų dienas, brokerių atidarymus, asmeninį informavimą ir kt. Tikslus rinkodaros veiklos derinys bus sukurtas pagal strategiją, pritaikytą jūsų konkrečiam turtui, kartu atsižvelgiant į rinkos sąlygas ir akcentuojant tikslumą bei efektyvumą. Taip pat derinsiu ir dalyvausiu parodose su būsimais pirkėjais, kad jūsų namai visada būtų pristatomi efektyviai.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">04</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Pasiūlymas ir derybos</div>
+                                                        <div class="step_content">Kai tik gausime pasiūlymą (ar pasiūlymus) dėl jūsų nuosavybės, atliksiu visus reikalingus patikrinimus, kad patikrinčiau pasiūlymus ir pateiksiu jums savo galimybes. Nors galutinį sprendimą priimsite jūs, aš padėsiu jums priimti geriausią sprendimą ir įnirtingai derėsiuosi, kad gautumėte geriausią kainą ir sąlygas.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">05</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Priėmimas</div>
+                                                        <div class="step_content">Kai pasiūlymas bus priimtas, mes paprastai pradėsime advokato peržiūros ir patikrinimo laikotarpį, kuris paprastai trunka 5–7 dienas po to, kai priimate pasiūlymą ir pasirašote sutartį. Tai gali skirtis atsižvelgiant į konkrečius nenumatytus atvejus ir terminus, dėl kurių susitarėme su pirkėju, bet aš visada stengsiuosi, kad šiuo atžvilgiu būtų sudarytos geriausios sąlygos. Šiuo laikotarpiu koordinuosiu visas šiame procese dalyvaujančias šalis ir užtikrinsiu, kad jūsų interesai bus apsaugoti.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">06</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Tolesni žingsniai</div>
+                                                        <div class="step_content">Pasibaigus advokato peržiūros laikotarpiui, pirkėjas paprastai stengsis užsitikrinti finansavimą, o mes koordinuosime visas užduotis, kurių mums reikia, kad palaikytume šį procesą. Stebėsiu visus susijusius klausimus, kad kuo greičiau ir efektyviau pasiektume baigiamąjį stalą.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">07</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Uždarymas</div>
+                                                        <div class="step_content">Paruošime turtą išsikraustymui (jei taikoma) ir galutiniam patikrinimui, sutvarkysime dokumentus ir uždarysime.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">08</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Nuolatinis palaikymas</div>
+                                                        <div class="step_content">Mano darbas nesibaigia prie uždarymo stalo. Nesvarbu, ar tai kraustymosi diena, ar po penkerių metų, aš matau savo vaidmenį kaip visą gyvenimą trunkantis nekilnojamojo turto patarėjas ir šaltinis, todėl esu čia, kad palaikyčiau jus visais nekilnojamojo turto klausimais. Visada laukiu, jei turite klausimų, visada būsiu jūsų akimis ir ausimis apie visus nekilnojamojo turto klausimus.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Invest" class="w-tab-pane">
+                                            <div class="step_component">
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">01</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Konsultacijų ir strategijos sesija</div>
+                                                        <div class="step_content-no-offset">
+                                                            Susirinksime (asmeniškai arba virtualiai), kad aptartume, kokio tipo nekilnojamąjį turtą ir investiciją ieškote, taip pat jūsų biudžetą, laiko juostą, idealią grąžą, prioritetus ir tikslus. Taip pat peržiūrėsime procesą, rinkos sąlygas toje srityje (-ėse), kurios (-ėse) ieškote, ir išspręsime visus klausimus. <br/>
+                                                            <br/>Šios sesijos tikslas – sukurti tvirtą strategiją, atitinkančią jūsų konkrečius poreikius, ir užtikrinti, kad jums būtų kuo patogesni žingsniai į priekį. Nesvarbu, ar esate patyręs investuotojas, tiksliai žinantis, ko ieškote, pirmą kartą investuotojas, kuris tiria galimybes arba kažkur tarp jų, aš čia, kad padėčiau ir pritaikysiu procesą pagal jūsų konkrečius poreikius.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">02</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Nuosavybės identifikavimas ir pasirinkimas</div>
+                                                        <div class="step_content-no-offset">Peržiūrėsime jūsų kriterijus atitinkančius nekilnojamojo turto objektus ir apžiūrėsime jus dominančius objektus (asmeniškai arba virtualiai). Pamatysime tiek (arba tiek nedaug), kiek reikės, kad surastume tinkamą, ir aš būsiu šalia kiekviename žingsnyje koordinuodamas, pateikdamas atsiliepimus ir atlikdamas išsamų išsamų patikrinimą, kad priimtumėte pagrįstą sprendimą.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">03</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Pasiūlymas ir derybos</div>
+                                                        <div class="step_content">Kai rasime jums patinkantį turtą, kartu parengsime pasiūlymo strategiją. Taikant šią strategiją atsižvelgiama į daugybę veiksnių – esamas rinkos sąlygas, trumpalaikes ir ilgalaikes tendencijas šioje srityje, esamus pasiūlymus, palyginamus daiktus, išorinę būklę, vidaus būklę, tai, ką žinome apie pardavėjo pageidavimus ir tt. Pateiksiu pasiūlymą. ir įnirtingai atstovauti jūsų interesams derybų metu, kad gautumėte geriausią įmanomą kainą ir sąlygas.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">04</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Priėmimas ir tolesni veiksmai</div>
+                                                        <div class="step_content">Kai pasiūlymas bus priimtas, atsižvelgsime į sutarties nenumatytus atvejus, įnešsime grynuosius pinigus, užtikrinsime finansavimą ir visa kita, ko reikia norint sėkmingai užbaigti. Atstovausiu ir ginsiu jūsų interesus visame kame, derinsiu veiksmus su visomis šalimis, kad procesas būtų kuo sklandesnis.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text">Step</div>
+                                                        <div class="step_step-num">05</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text">Nuolatinis palaikymas</div>
+                                                        <div class="step_content">Mano darbas nesibaigia prie uždarymo stalo. Matau, kad esu visą gyvenimą trunkantis nekilnojamojo turto patarėjas ir šaltinis, todėl esu čia, kad palaikyčiau jus visais nekilnojamojo turto klausimais. Visada laukiu, jei turite kokių nors klausimų, ir būsiu jūsų akimis ir ausimis apie visus su nekilnojamuoju turtu susijusius dalykus, ypač kai tai susiję su trumpalaikių ir ilgalaikių tikslų įgyvendinimu investuojant.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Explore" class="w-tab-pane w--tab-active">
+                                            <div class="step_component">
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">01</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Konsultacijų ir strategijos sesija</div>
+                                                        <div class="step_content-no-offset">
+                                                            Nežinote, koks yra jūsų nekilnojamojo turto žaidimo planas? Ne bėda! Džiaugiuosi galėdamas susitikti (asmeniškai arba virtualiai), kad padėčiau jums tai išsiaiškinti. <br/>
+                                                            <br/>
+                                                            Norite nusipirkti kelyje, bet nežinote, kaip ten patekti? Galiu padėti jums išsiaiškinti žaidimo planą. Pasiruošę apsikeisti arba susirasti savo namus amžinai, bet prieš parduodant ar atliekant dvi operacijas reikia sugalvoti būdą, kaip pirkti? Galiu padėti orientuotis. <br/>
+                                                            <br/>O gal norite panardinti kojų pirštus į vandenį investuodami ar įsilauždami į namus, kad pamatytumėte, ar tai jums tinka? Aš taip pat galiu padėti.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="step_item">
+                                                    <div class="step_step-num-wrapper">
+                                                        <div class="step_step-text-offset">Step</div>
+                                                        <div class="step_step-num-no-offset">02</div>
+                                                    </div>
+                                                    <div class="step_content-heading">
+                                                        <div class="step_title-text-no-offset">Vykdykite savo strateginį planą</div>
+                                                        <div class="step_content-no-offset">Kai mes parengsime strateginį planą, atitinkantį jūsų poreikius ir tikslus, padėsiu jums jį pasiekti, kaip tik galėsiu ir laikantis jums prasmingo laiko, nesvarbu, ar tai būtų kažkas, ką pradedame iš karto, ar net po metų. kelias. Aš būsiu jūsų akimis ir ausimis apie visus nekilnojamojo turto dalykus ir dirbsiu, kad užsitarnaučiau visą gyvenimą trunkančio nekilnojamojo turto ištekliaus vaidmenį.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div class="section-footer background-color-brown">
+                <div class="page-padding">
+                    <div class="container-xlarge">
+                        <div class="padding-vertical padding-huge">
+                            <div class="footer_component">
+                                <div class="footer_top">
+                                    <div class="footer-down">
+                                        <div class="footer-hoz">
+                                            <a href="mailto:aurimas.ragauskas@capitalrealty.com" class="footer-link">Email: aurimas.ragauskas@capitalrealty.com</a>
+                                            <a href="tel:+37064530036" class="footer-link">Phone: +370 64530036</a>
+                                        </div>
+                                        <div class="w-layout-grid grid-2">
+                                            <a id="w-node-_080c09cc-128e-f577-8a70-965ced58270b-ed582703" href="/" class="footer_link">Pagrindinis</a>
+                                            <a id="w-node-_080c09cc-128e-f577-8a70-965ced58270d-ed582703" href="/about" class="footer_link">Apie</a>
+                                            <a id="w-node-_080c09cc-128e-f577-8a70-965ced58270f-ed582703" href="/process" aria-current="page" class="footer_link w--current">procesas</a>
+                                            <a id="w-node-_80db17a4-ba21-3f4e-c441-b4bdd07b36e7-ed582703" href="/contact" class="footer_link">kontaktai</a>
+                                            <a id="w-node-_080c09cc-128e-f577-8a70-965ced582715-ed582703" href="https://www.facebook.com/aurimas.ragauskas" target="_blank" class="footer_social-link w-inline-block">
+                                                <div class="icon-1x1-small w-embed">
+                                                    <svg aria-hidden="true" role="img" fill='currentColor' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                        <title>Facebook icon</title>
+                                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                            <a id="w-node-_080c09cc-128e-f577-8a70-965ced582717-ed582703" href="https://www.instagram.com/sheilainchicago/?utm_medium=copy_link" target="_blank" class="footer_social-link w-inline-block">
+                                                <div class="icon-1x1-small w-embed">
+                                                    <svg aria-hidden="true" role="img" fill=currentColor viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                        <title>Instagram icon</title>
+                                                        <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="footer_logos">
+                                            <a href="#" target="_blank" class="footer_logo-link is-last w-inline-block">
+                                                <div class="footer_copyright-text">©2024 All Rights Reserved.</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6658c593676b411337d235a5" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.prod.website-files.com/6658c593676b411337d235a5/js/webflow.52d98bbad.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js
+"></script>
+        <script>
+            $('.close-button').on('click', function() {
+                $('.menu-button').click();
+            });
+        </script>
+        <script>
+            $('#nav-menu').one('inview', function(event, isInView) {
+
+                if (isInView) {
+                    console.log(isInView);
+                    $(".nav-link-trigger").each(function(i) {
+                        var item = $(this);
+                        setTimeout(function() {
+                            item.click();
+                        }, 100 * i);
+                    });
+                }
+            });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", event=>{
+                let width = window.matchMedia("(max-width: 992px)");
+                initCheck(width);
+                width.addListener(initCheck);
+            }
+            );
+
+            function initCheck(width) {
+                if (width.matches) {//less than 992px
+                } else {
+                    var canvas = document.getElementById("matter-window");
+
+                    $("#matter-window").one("inview", function(event, isInView) {
+                        if (isInView) {
+                            // module aliases
+                            var w = window.innerWidth;
+                            var h = window.innerHeight;
+                            var canvasWidth = canvas.clientWidth;
+                            var canvasHeight = canvas.clientHeight;
+
+                            var Engine = Matter.Engine
+                              , Render = Matter.Render
+                              , Runner = Matter.Runner
+                              , Bodies = Matter.Bodies
+                              , Body = Matter.Body
+                              , Composite = Matter.Composite
+                              , Events = Matter.Events
+                              , MouseConstraint = Matter.MouseConstraint
+                              , Mouse = Matter.Mouse;
+
+                            // create an engine
+                            var engine = Engine.create();
+                            //engine.gravity.y = 1;
+
+                            // create a renderer
+                            var render = Render.create({
+                                element: canvas,
+                                engine: engine,
+                                options: {
+                                    width: canvasWidth,
+                                    height: canvasHeight,
+                                    wireframes: false,
+                                    background: "transparent"
+                                }
+                            });
+
+                            var circA = Bodies.circle(window.innerWidth * 0.3, 10, 50, {
+                                render: {
+                                    fillStyle: "#e65300"
+                                },
+                                //density: 0.1,
+                                restitution: 0.9 //frictionAir: 0.001
+                            });
+
+                            var wall1 = Bodies.rectangle(-500, canvasHeight / 2, 1000, canvasHeight * 2, {
+                                isStatic: true,
+                                render: {
+                                    opacity: 0
+                                }
+                            });
+                            var wall2 = Bodies.rectangle(canvasWidth + 500, canvasHeight / 2, 1000, canvasHeight * 2, {
+                                isStatic: true,
+                                render: {
+                                    opacity: 0
+                                }
+                            });
+                            //window.wall2 = wall2;
+                            var ground = Bodies.rectangle(canvasWidth / 2, canvasHeight + 50, canvasWidth, 100, {
+                                isStatic: true,
+                                render: {
+                                    opacity: 0
+                                }
+                            });
+                            var ceil = Bodies.rectangle(canvasWidth / 2, -50, canvasWidth, 100, {
+                                isStatic: true,
+                                render: {
+                                    opacity: 0
+                                }
+                            });
+
+                            window.addEventListener("resize", (e)=>{
+                                canvasWidth = canvas.clientWidth;
+                                canvasHeight = canvas.clientHeight;
+
+                                Matter.Body.setPosition(wall2, Matter.Vector.create(canvasWidth + 500, canvasHeight / 2));
+                                Matter.Body.setPosition(ground, Matter.Vector.create(canvasWidth / 2, canvasHeight + 50));
+                            }
+                            );
+
+                            // add all of the bodies to the world
+                            Composite.add(engine.world, [circA, wall1, wall2, ceil, ground]);
+
+                            // run the renderer
+                            Render.run(render);
+
+                            // create runner
+                            var runner = Runner.create();
+
+                            // run the engine
+                            Runner.run(runner, engine);
+
+                            //Make interactive
+                            var mouseConstraint = Matter.MouseConstraint.create(engine, {
+                                //Create Constraint
+                                element: canvas,
+                                constraint: {
+                                    render: {
+                                        visible: false
+                                    },
+                                    stiffness: 0.8
+                                }
+                            });
+                            Matter.World.add(engine.world, mouseConstraint);
+
+                            // Events.on(mouseConstraint, "mousedown", function (event) {
+                            //   let ball = mouseConstraint.body;
+
+                            //   Body.applyForce(
+                            //     ball,
+                            //     { x: ball.position.x, y: ball.position.y },
+                            //     { x: 500, y: -500 }
+                            //   );
+                            //   console.log("force applied");
+                            // });
+
+                            mouseConstraint.mouse.element.removeEventListener("mousewheel", mouseConstraint.mouse.mousewheel);
+                            mouseConstraint.mouse.element.removeEventListener("DOMMouseScroll", mouseConstraint.mouse.mousewheel);
+
+                            var cursorInPage = false;
+                            $(window).on("mouseout", function() {
+                                cursorInPage = false;
+                            });
+                            $(window).on("mouseover", function() {
+                                cursorInPage = true;
+                            });
+
+                            var pointerX = -1;
+                            var pointerY = -1;
+                            var cursorYInCanvas = -1;
+                            let ball = Composite.allBodies(engine.world)[0];
+
+                            document.onmousemove = function(event) {
+                                pointerX = event.pageX;
+                                pointerY = event.pageY;
+                                if (canvas) {
+                                    cursorYInCanvas = pointerY - (canvas.getBoundingClientRect().top - document.body.getBoundingClientRect().top);
+                                }
+                            }
+                            ;
+
+                            function cursorInCanvas() {
+                                if (cursorInPage && cursorYInCanvas > 0 && cursorYInCanvas < canvasHeight && pointerX > 1 && pointerX < canvasWidth) {
+                                    return true;
+                                } else {
+                                    return false;
+                                }
+                            }
+
+                            var startTime = new Date().getTime();
+                            var interval = setInterval(function() {
+                                if (new Date().getTime() - startTime > 5000) {
+                                    clearInterval(interval);
+                                    return;
+                                }
+                                pointerCheck();
+                                //do whatever here..
+                            }, 50);
+
+                            //setInterval(pointerCheck, 50);
+                            function pointerCheck() {
+                                // console.log("Cursor at: " + pointerX + ", " + cursorYInCanvas);
+                                // console.log("Ball at: " + ball.position.x + ", " + ball.position.y);
+                                if (cursorInCanvas()) {
+                                    //console.log("cursor is in canvas!");
+                                    var yDirUnit = (cursorYInCanvas - ball.position.y) / Math.abs(cursorYInCanvas - ball.position.y);
+                                    var xDirUnit = (pointerX - ball.position.x) / Math.abs(pointerX - ball.position.x);
+                                    // console.log("xdirunit: " + xDirUnit);
+                                    // console.log("ydirunit: " + yDirUnit);
+                                    Body.applyForce(ball, {
+                                        x: ball.position.x,
+                                        y: ball.position.y
+                                    }, {
+                                        x: 0.05 * xDirUnit,
+                                        y: 0.05 * yDirUnit
+                                    });
+                                }
+                            }
+                        }
+                    });
+                }
+            }
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script>
+            //handle tab links from home page
+            //$('.process_tab').on('click', function() {
+            //  var y = $(window).scrollTop();  //your current y position on the page
+
+            //});
+
+            var Webflow = Webflow || [];
+            Webflow.push(function() {
+                var tabName = getParam('tab');
+                console.log(tabName);
+                if (!tabName) {
+                    //no tab passed in URL so click first tab to activate the bg.
+                    $('.process_tab').first().click();
+                    return;
+                }
+
+                $('.' + tabName).triggerHandler('click');
+
+                function getParam(name) {
+                    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+                    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)")
+                      , results = regex.exec(location.search);
+                    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+                }
+            });
+        </script>
+        <script>
+
+            //changes tab backgrounds on click
+            $('.process_tab').on('click', function() {
+                $('.process_tab-bg').css('opacity', '0');
+                $(this).find('.process_tab-bg').css('opacity', '100%');
+
+                setTimeout(function() {
+                    //console.log('scroll trigger');
+                    window.scrollBy(0, 1);
+                    //window.scrollBy(0, -1);
+                }, 200);
+            });
+
+            //click first tab
+            //$('.process_tab').first().click();
+        </script>
+        <script>
+            //logo animation
+            anime({
+                targets: "path",
+                strokeDashoffset: [anime.setDashoffset, 0],
+                easing: "easeInOutSine",
+                duration: 800,
+                delay: function(el, i) {
+                    return i * 150;
+                },
+                direction: "alternate",
+                loop: false
+            });
+        </script>
+    </body>
+</html>
